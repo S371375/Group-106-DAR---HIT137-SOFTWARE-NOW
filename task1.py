@@ -3,8 +3,8 @@ import pandas as pd
 from zipfile import ZipFile
 
 # Specify the path to the zipped folder
-zipped_folder_path = '/Users/noahchaudhary/assignment2/Assignment 2.zip'
-extracted_folder_path = '/Users/noahchaudhary/assignment2/extracted_files'
+zipped_folder_path = 'Assignment 2.zip'
+extracted_folder_path = 'extracted_files'
 
 # Extract the contents of the zipped folder
 with ZipFile(zipped_folder_path, 'r') as zip_ref:
@@ -31,7 +31,7 @@ for csv_file in csv_files:
 combined_text = '\n'.join(all_texts)
 
 # Write the combined text to a single .txt file
-output_txt_path = '/Users/noahchaudhary/assignment2/output/task1_output.txt'
+output_txt_path = 'task1_output.txt'
 with open(output_txt_path, 'w', encoding='utf-8') as txt_file:
     txt_file.write(combined_text)
 
