@@ -1,0 +1,3 @@
+noahchaudhary@Noahs-MBP ~ % python3 -m venv assignment2 
+noahchaudhary@Noahs-MBP ~ % source assignment2/bin/activate
+(assignment2) noahchaudhary@Noahs-MBP ~ % pip install pandas      
