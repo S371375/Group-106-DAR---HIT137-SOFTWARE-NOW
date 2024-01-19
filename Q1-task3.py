@@ -20,7 +20,7 @@ word_counts = Counter(words)
 top_30_words = word_counts.most_common(30)
 
 # Store the top 30 words and their counts in a CSV file
-csv_file_path = '/Users/noahchaudhary/assignment2/output/task3-1_output.csv'
+csv_file_path = '/Users/noahchaudhary/assignment2/output/Q1-task3_output.csv'
 with open(csv_file_path, 'w', newline='', encoding='utf-8') as csv_file:
     csv_writer = csv.writer(csv_file)
     
