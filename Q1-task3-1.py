@@ -3,7 +3,7 @@ from collections import Counter
 import string
 
 # Read the text from the .txt file
-with open('/Users/noahchaudhary/assignment2/output/task1_output.txt', 'r', encoding='utf-8') as txt_file:
+with open('Q1-task1_output.txt', 'r', encoding='utf-8') as txt_file:
     text = txt_file.read()
 
 # Remove punctuation and convert to lowercase
@@ -20,7 +20,7 @@ word_counts = Counter(words)
 top_30_words = word_counts.most_common(30)
 
 # Store the top 30 words and their counts in a CSV file
-csv_file_path = '/Users/noahchaudhary/assignment2/output/Q1-task3_output.csv'
+csv_file_path = 'Q1-task3-1_output.csv'
 with open(csv_file_path, 'w', newline='', encoding='utf-8') as csv_file:
     csv_writer = csv.writer(csv_file)
     
