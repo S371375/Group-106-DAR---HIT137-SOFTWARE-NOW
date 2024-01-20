@@ -31,7 +31,7 @@ for csv_file in csv_files:
 combined_text = '\n'.join(all_texts)
 
 # Write the combined text to a single .txt file
-output_txt_path = 'task1_output.txt'
+output_txt_path = 'Qtask1_output.txt'
 with open(output_txt_path, 'w', encoding='utf-8') as txt_file:
     txt_file.write(combined_text)
 
