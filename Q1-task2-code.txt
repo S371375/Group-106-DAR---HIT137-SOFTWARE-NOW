@@ -1,0 +1,5 @@
+pip install spacy
+pip install scispacy
+pip install en_core_sci_sm-0.5.3.tar.gz
+ppip install en_ner_bc5cdr_md-0.5.3.tar.gz
+pip install transformers
